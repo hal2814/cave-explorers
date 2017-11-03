@@ -1,24 +1,24 @@
 { "items": [{
     "img":"http://pixelartmaker.com/art/d851ca4a819ceeb.png",
-    "name": "Rusty Pickaxe",
+    "name": "a rusty pickaxe",
     "type": "weapon",
     "modifier": "2",
     "clue":"Its more rust than pick..."  },
     {
     "img":"http://www.clker.com/cliparts/2/1/8/f/1240167174328127397okiimatsu_leather_jacket.svg.hi.png",
-    "name": "Bat Leather Jacket",
+    "name": "a bat leather jacket",
     "type": "armor",
     "modifier": "10",
     "clue":"Soft."  },
     {
     "img":"http://piq.codeus.net/static/media/userpics/piq_172648_400x400.png",
-    "name": "Bacon cheese burger",
+    "name": "a bacon cheese burger",
     "type": "food",
     "modifier": "10",
     "clue":"it says '100% vegan' on the wrapper."  },
     {
     "img":"http://piq.codeus.net/static/media/userpics/piq_182763_400x400.png",
-    "name": "Magic bagel",
+    "name": "a magic bagel",
     "type": "food",
     "modifier": "5",
     "clue":"has the name 'Javi' written on the wrapper."  },
@@ -63,7 +63,7 @@
     "name": "some leaves",
     "type": "junk",
     "modifier": "0",
-    "clue":"You could pick this up, but why?"  }
+    "clue":"You could pick them up, but why?"  }
 
   ],
 
@@ -179,7 +179,7 @@
     "right":"7",
     "creatures": [],
     "story": "You come across what appears to be some kind of nesting ground for an unspeakable creature.",
-    "img":"https://img00.deviantart.net/feef/i/2005/338/6/c/nargh_the_cave_dweller_by_alex16.jpg"
+    "img":"https://i.pinimg.com/564x/f7/d7/fb/f7d7fb482eb3e38fe454dfd5cee8dcda.jpg"
     },
     {
     "search":"Open chest",

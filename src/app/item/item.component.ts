@@ -23,6 +23,7 @@ export class ItemComponent implements OnInit {
   itemShow = false;
   searchShow = true;
   addShow = false;
+  sameItemShow = false;
   caveToDisplay;
   characterToDisplay;
   itemToDisplay;
@@ -150,11 +151,8 @@ export class ItemComponent implements OnInit {
     }else if(this.itemObservable.type === "armor"){
       this.armor += parseInt(this.itemObservable.modifier);
     }
-    console.log(this.health);
     this.addShow = false;
     this.itemShow = false;
     this.inventory.push(this.itemObservable);
-    console.log("inventory" + this.inventory)
   }
-
 }
