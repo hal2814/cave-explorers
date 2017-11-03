@@ -14,11 +14,18 @@ import { ItemService } from '../item.service';
 })
 export class ItemComponent implements OnInit {
   items: FirebaseListObservable<any[]>;
+  caveItems = [];
+  characterItems = [];
+  inventory = [];
+  death = false;
+  showChoice = false;
+  show = true;
+  itemShow = false;
+  searchShow = true;
+  addShow = false;
   caveToDisplay;
   characterToDisplay;
   itemToDisplay;
-  caveItems = [];
-  characterItems = [];
   caveObservable;
   characterObservable;
   itemObservable;
@@ -31,13 +38,8 @@ export class ItemComponent implements OnInit {
   health;
   strength;
   armor;
-  death = false;
-  showChoice = false;
-  show = true;
-  itemShow = false;
-  searchShow = true;
-  addShow = false;
-  inventory = [];
+
+
 
   constructor(private router: Router, private itemService: ItemService) { }
 

@@ -9,7 +9,7 @@
     <button class="btn btn-danger" (click)="chooseRight()">Right</button>
 
     <div *ngIf=showChoice>
-      <button class="btn btn-info" *ngIf="searchShow" (click)="findItem();">Search area for items</button>
+      <button class="btn btn-info" *ngIf="searchShow" (click)="findItem();">{{(caveToDisplay | async)?.search}}</button>
       <button class="btn btn-success" *ngIf="addShow" (click)="applyItem();">add item to your backpack</button>
     </div>
   </div>

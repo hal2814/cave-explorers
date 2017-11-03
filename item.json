@@ -128,6 +128,7 @@
   ],
 
   "caves": [{
+    "search":"Look for useful items near the entrance",
     "name": "Cave Entrance",
     "items":[9,10],
     "left": "1",
@@ -137,6 +138,7 @@
     "img":"http://1.bp.blogspot.com/-Pn1Z8IvSWnI/UrlT0tt_ktI/AAAAAAAC_h4/fG3AKEFJC_0/s1600/merlin0455.jpg"
     },
     {
+    "search":"Investigate skeleton",
     "name": "Skeleton room",
     "items":[0,6],
     "left": "3",
@@ -146,6 +148,7 @@
     "img": "https://cdnb.artstation.com/p/assets/images/images/000/322/299/large/simon-fetscher-skeleton-cave.jpg?1443926953"
     },
     {
+    "search":"Investigate shiny object",
     "name": "A dark room",
     "items":[7,5],
     "left": "6",
@@ -155,6 +158,7 @@
     "img":"https://adventuresofacouchsurfer.files.wordpress.com/2011/05/img_1664-valentine-cave.jpg"
     },
     {
+    "search":"Search filth for anything useful",
     "name": "Strange nest",
     "items":[1,7],
     "left": "8",
@@ -164,6 +168,7 @@
     "img":"https://img00.deviantart.net/feef/i/2005/338/6/c/nargh_the_cave_dweller_by_alex16.jpg"
     },
     {
+    "search":"Open chest",
     "name": "Treasure room",
     "items":[4,3],
     "left": "7",
@@ -173,6 +178,7 @@
     "img":"https://www.yellowstonepark.com/.image/t_share/MTQ3MzIwMDY5MDUwNzM4MTI2/treasure-chest-cave_adobe_680.jpg"
     },
     {
+    "search":"Investigate thing covered in slime",
     "name": "Squishy room",
     "items":[5,7],
     "left": "8",
@@ -182,6 +188,7 @@
     "img": "https://www-tc.pbs.org/wgbh/nova/assets/img/lives-of-extremophiles/image-02-large.jpg"
     },
     {
+    "search":"Look around waterfall",
     "name": "Underground deluge",
     "items":[2,6],
     "left": "7",
@@ -191,6 +198,7 @@
     "img":"http://3.bp.blogspot.com/-4ZjO1jl4Z3g/URJoYejz6fI/AAAAAAAADH4/C6Nc0FC0udQ/s1600/Smoo+Cave+PK.jpg"
     },
     {
+    "search":"Search pirate ship",
     "name": "Underground pirate ship (#notgoonies)",
     "items":[4,2],
     "left": "0",
@@ -200,6 +208,7 @@
     "img":"https://vignette3.wikia.nocookie.net/goonies/images/f/f0/Inferno.jpg/revision/latest?cb=20110803235640"
     },
     {
+    "search":"Quick, grab something!",
     "name": "Cave hippo chamber",
     "items":[1,0],
     "left": "0",
