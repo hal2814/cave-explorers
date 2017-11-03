@@ -31,3 +31,16 @@ body{
   background-color: black;
   color: white;
 }
+
+.info {
+  border: 1px solid #ccc;
+  display: none;
+  font-size: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+}
+
+.inv:hover .info {
+  display: block;
+}

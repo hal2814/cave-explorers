@@ -129,7 +129,7 @@
 
   "caves": [{
     "name": "Cave Entrance",
-    "items":[10,9],
+    "items":[9,10],
     "left": "1",
     "right":"2",
     "creatures": [],
@@ -151,7 +151,7 @@
     "left": "6",
     "right":"5",
     "creatures": [],
-    "story": "As you walk through this side of the cave you enveloped in pure darkness, all you can see is something shiny in the distance",
+    "story": "As you walk through this side of the cave you are enveloped in pure darkness, all you can see is something shiny in the distance",
     "img":"https://adventuresofacouchsurfer.files.wordpress.com/2011/05/img_1664-valentine-cave.jpg"
     },
     {
@@ -191,7 +191,7 @@
     "img":"http://3.bp.blogspot.com/-4ZjO1jl4Z3g/URJoYejz6fI/AAAAAAAADH4/C6Nc0FC0udQ/s1600/Smoo+Cave+PK.jpg"
     },
     {
-    "name": "Pirate ship (#notgoonies)",
+    "name": "Underground pirate ship (#notgoonies)",
     "items":[4,2],
     "left": "0",
     "right":"0",
@@ -200,7 +200,7 @@
     "img":"https://vignette3.wikia.nocookie.net/goonies/images/f/f0/Inferno.jpg/revision/latest?cb=20110803235640"
     },
     {
-    "name": "Cave hippo",
+    "name": "Cave hippo chamber",
     "items":[1,0],
     "left": "0",
     "right":"0",

@@ -5,12 +5,12 @@
       <h3>{{(caveToDisplay | async)?.story}}</h3>
       <img src="{{(caveToDisplay | async)?.img}}">
       <h3>left: {{(caveToDisplay | async)?.left}}</h3>
-    <button (click)="chooseLeft()">Left</button>
-    <button (click)="chooseRight()">Right</button>
+    <button class="btn btn-warning" (click)="chooseLeft()">Left</button>
+    <button class="btn btn-danger" (click)="chooseRight()">Right</button>
 
     <div *ngIf=showChoice>
-      <button *ngIf="searchShow" (click)="findItem();">Search area for items</button>
-      <button *ngIf="addShow" (click)="applyItem();">add item to inventory</button>
+      <button class="btn btn-info" *ngIf="searchShow" (click)="findItem();">Search area for items</button>
+      <button class="btn btn-success" *ngIf="addShow" (click)="applyItem();">add item to your backpack</button>
     </div>
   </div>
 
@@ -71,77 +71,78 @@
 </div>
 <div class="row">
   <div class="well inv col-md-1">
-    <img src="{{inventory[0]}}">
+    <img src="{{inventory[0].img}}">
+    <span class="info">{{inventory[0].name}}</span>
   </div>
   <div class="well inv col-md-1">
-    <img src="{{inventory[1]}}">
+    <img src="{{inventory[1].img}}">
   </div>
   <div class="well inv col-md-1">
-    <img src="{{inventory[2]}}">
+    <img src="{{inventory[2].img}}">
   </div>
   <div class="well inv col-md-1">
-    <img src="{{inventory[3]}}">
+    <img src="{{inventory[3].img}}">
   </div>
   <div class="well inv col-md-1">
-    <img src="{{inventory[4]}}">
+    <img src="{{inventory[4].img}}">
   </div>
   <div class="well inv col-md-1">
-    <img src="{{inventory[5]}}">
+    <img src="{{inventory[5].img}}">
   </div>
   <div class="well inv col-md-1">
-    <img src="{{inventory[6]}}">
+    <img src="{{inventory[6].img}}">
   </div>
   <div class="well inv col-md-1">
-    <img src="{{inventory[7]}}">
+    <img src="{{inventory[7].img}}">
   </div>
   <div class="well inv col-md-1">
-    <img src="{{inventory[8]}}">
+    <img src="{{inventory[8].img}}">
   </div>
   <div class="well inv col-md-1">
-    <img src="{{inventory[9]}}">
+    <img src="{{inventory[9].img}}">
   </div>
   <div class="well inv col-md-1">
-    <img src="{{inventory[10]}}">
+    <img src="{{inventory[10].img}}">
   </div>
   <div class="well inv col-md-1">
-    <img src="{{inventory[11]}}">
+    <img src="{{inventory[11].img}}">
   </div>
 </div>
 <div class="row">
   <div class="well inv col-md-1">
-    <img src="{{inventory[12]}}">
+    <img src="{{inventory[12].img}}">
   </div>
   <div class="well inv col-md-1">
-    <img src="{{inventory[13]}}">
+    <img src="{{inventory[13].img}}">
   </div>
   <div class="well inv col-md-1">
-    <img src="{{inventory[14]}}">
+    <img src="{{inventory[14].img}}">
   </div>
   <div class="well inv col-md-1">
-    <img src="{{inventory[15]}}">
+    <img src="{{inventory[15].img}}">
   </div>
   <div class="well inv col-md-1">
-    <img src="{{inventory[16]}}">
+    <img src="{{inventory[16].img}}">
   </div>
   <div class="well inv col-md-1">
-    <img src="{{inventory[17]}}">
+    <img src="{{inventory[17].img}}">
   </div>
   <div class="well inv col-md-1">
-    <img src="{{inventory[18]}}">
+    <img src="{{inventory[18].img}}">
   </div>
   <div class="well inv col-md-1">
-    <img src="{{inventory[19]}}">
+    <img src="{{inventory[19].img}}">
   </div>
   <div class="well inv col-md-1">
-    <img src="{{inventory[20]}}">
+    <img src="{{inventory[20].img}}">
   </div>
   <div class="well inv col-md-1">
-    <img src="{{inventory[21]}}">
+    <img src="{{inventory[21].img}}">
   </div>
   <div class="well inv col-md-1">
-    <img src="{{inventory[22]}}">
+    <img src="{{inventory[22].img}}">
   </div>
   <div class="well inv col-md-1">
-    <img src="{{inventory[23]}}">
+    <img src="{{inventory[23].img}}">
   </div>
 </div>

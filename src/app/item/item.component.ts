@@ -146,7 +146,8 @@ export class ItemComponent implements OnInit {
     }
     console.log(this.health);
     this.addShow = false;
-    this.inventory.push(this.itemObservable.img);
+    this.itemShow = false;
+    this.inventory.push(this.itemObservable);
     console.log("inventory" + this.inventory)
   }
 
