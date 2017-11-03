@@ -1,0 +1,51 @@
+{ "caves": [{
+    "items":[],
+    "directions": ["left","right"],
+    "creatures": [],
+    "story": "Walking through the forest you see a giant dark cave entrance:",
+    "id": "1"
+    },
+    {
+    "items":[],
+    "directions": ["left","right"],
+    "creatures": [],
+    "story": "As you enter the tunnel you come across a skeleton next to a backpack: ",
+    "id": "2"
+    },
+    {
+    "items":[],
+    "directions": ["left","right"],
+    "creatures": [],
+    "story": "As you walk through this side of the cave you enveloped in pure darkness, all you can see is something shiny in the distance",
+    "id": "3"
+    },
+    {
+    "items":[],
+    "directions": ["left","right"],
+    "creatures": [],
+    "story": "You come across what appears to be some kind of nesting ground for an unspeakable creature.",
+    "id": "4"
+    },
+    {
+    "items":[],
+    "directions": ["left","right"],
+    "creatures": [],
+    "story": "The sound of dripping water catches your attention, but even more exciting is the sight of a strange chest halfway submerged in a shallow pool.",
+    "id": "5"
+    },
+    {
+    "items":[],
+    "directions": ["left","right"],
+    "creatures": [],
+    "story": "It stinks... really bad. The floor is sticky and mushy. You see something sticking out of this disgusting substance.",
+    "id": "6"
+    },
+    {
+    "items":[],
+    "directions": ["left","right"],
+    "creatures": [],
+    "story": "You come across a large underground waterfall, It appears to be a dead end but you feel a breeze coming from the direction of the waterfall",
+    "id": "7"
+    }
+  ]
+}

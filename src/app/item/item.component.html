@@ -1,0 +1,70 @@
+<div class="row">
+  <div class="col-md-6" *ngIf="showChoice">
+    <h2>{{(caveToDisplay | async)?.name}}</h2>
+
+      <h3>{{(caveToDisplay | async)?.story}}</h3>
+      <img src="{{(caveToDisplay | async)?.img}}">
+      <h3>left: {{(caveToDisplay | async)?.left}}</h3>
+    <button (click)="chooseLeft()">Left</button>
+    <button (click)="chooseRight()">Right</button>
+
+    <div *ngIf=showChoice>
+      <button *ngIf="searchShow" (click)="findItem();">Search area for items</button>
+      <button *ngIf="addShow" (click)="applyItem();">add item to inventory</button>
+    </div>
+  </div>
+
+  <h2>Choose Your Character</h2>
+
+  <a (click)="show = false; showChoice = true; selectCharacter('dave')"><div *ngIf="show" class="animate-show-hide well col-md-3">
+    <h2>{{(dave | async)?.name}}</h2>
+    <p><em>{{(dave | async)?.story}}</em></p>
+    <img class="char" src="{{(dave | async)?.img}}">
+    <h3>Health: {{(dave | async)?.health}}</h3>
+    <h3>Strength: {{(dave | async)?.strength}}</h3>
+    <h3>Armor: {{(dave | async)?.armor}}</h3>
+  </div></a>
+
+  <a (click)="show = false; showChoice = true; selectCharacter('gram')"><div *ngIf="show" class="animate-show-hide well col-md-3">
+    <h2>{{(gram | async)?.name}}</h2>
+    <p><em>{{(gram | async)?.story}}</em></p>
+    <img class="char" src="{{(gram | async)?.img}}">
+    <h3>Health: {{(gram | async)?.health}}</h3>
+    <h3>Strength: {{(gram | async)?.strength}}</h3>
+    <h3>Armor: {{(gram | async)?.armor}}</h3>
+  </div></a>
+
+  <a (click)="show = false; showChoice = true; selectCharacter('timmy')"><div *ngIf="show" class="animate-show-hide well col-md-3" value="timmy">
+    <h2>{{(timmy | async)?.name}}</h2>
+    <p><em>{{(timmy | async)?.story}}</em></p>
+    <img class="char" src="{{(timmy | async)?.img}}">
+    <h3>Health: {{(timmy | async)?.health}}</h3>
+    <h3>Strength: {{(timmy | async)?.strength}}</h3>
+    <h3>Armor: {{(timmy | async)?.armor}}</h3>
+  </div></a>
+
+  <a (click)="show = false; showChoice = true; selectCharacter('larry')"><div *ngIf="show" class="animate-show-hide well col-md-3" value="larry">
+    <h2>{{(larry | async)?.name}}</h2>
+    <p><em>{{(larry | async)?.story}}</em></p>
+    <img class="char" src="{{(larry | async)?.img}}">
+    <h3>Health: {{(larry | async)?.health}}</h3>
+    <h3>Strength: {{(larry | async)?.strength}}</h3>
+    <h3>Armor: {{(larry | async)?.armor}}</h3>
+  </div></a>
+
+  <div *ngIf="showChoice" class="animate-show-hide well col-md-3">
+    <h2>{{(characterToDisplay | async)?.name}}</h2>
+    <p><em>{{(characterToDisplay | async)?.story}}</em></p>
+    <img class="char" src="{{(characterToDisplay | async)?.img}}">
+    <h3>Health: {{health}}</h3>
+    <h3>Strength: {{strength}}</h3>
+    <h3>Armor: {{armor}}</h3>
+  </div>
+
+  <div *ngIf="itemShow" class="animate-show-hide well col-md-3">
+    <h2>{{(itemToDisplay | async)?.name}}</h2>
+    <p><em>{{(itemToDisplay | async)?.clue}}</em></p>
+    <img class="char" src="{{(itemToDisplay | async)?.img}}">
+    <h3>Type: {{(itemToDisplay | async)?.type}}</h3>
+  </div>
+</div>

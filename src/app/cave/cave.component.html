@@ -1,0 +1,9 @@
+
+
+<h2>{{(caveToDisplay | async)?.name}}</h2>
+
+  <h3>{{(caveToDisplay | async)?.story}}</h3>
+  <img src="{{(caveToDisplay | async)?.img}}">
+  <h3>left: {{(caveToDisplay | async)?.left}}</h3>
+<button (click)="chooseLeft()">Left</button>
+<button (click)="chooseRight()">Right</button>

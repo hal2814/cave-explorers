@@ -1,0 +1,52 @@
+<div class="row">
+  <div class="col-md-6" *ngIf="showChoice">
+    <app-cave></app-cave>
+  </div>
+
+  <h2>Choose Your Character</h2>
+
+  <a (click)="show = false; showChoice = true; selectCharacter('dave')"><div *ngIf="show" class="animate-show-hide well col-md-3">
+    <h2>{{(dave | async)?.name}}</h2>
+    <p><em>{{(dave | async)?.story}}</em></p>
+    <img class="char" src="{{(dave | async)?.img}}">
+    <h3>Health: {{(dave | async)?.health}}</h3>
+    <h3>Strength: {{(dave | async)?.strength}}</h3>
+    <h3>Armor: {{(dave | async)?.armor}}</h3>
+  </div></a>
+
+  <a (click)="show = false; showChoice = true; selectCharacter('gram')"><div *ngIf="show" class="animate-show-hide well col-md-3">
+    <h2>{{(gram | async)?.name}}</h2>
+    <p><em>{{(gram | async)?.story}}</em></p>
+    <img class="char" src="{{(gram | async)?.img}}">
+    <h3>Health: {{(gram | async)?.health}}</h3>
+    <h3>Strength: {{(gram | async)?.strength}}</h3>
+    <h3>Armor: {{(gram | async)?.armor}}</h3>
+  </div></a>
+
+  <a (click)="show = false; showChoice = true; selectCharacter('timmy')"><div *ngIf="show" class="animate-show-hide well col-md-3" value="timmy">
+    <h2>{{(timmy | async)?.name}}</h2>
+    <p><em>{{(timmy | async)?.story}}</em></p>
+    <img class="char" src="{{(timmy | async)?.img}}">
+    <h3>Health: {{(timmy | async)?.health}}</h3>
+    <h3>Strength: {{(timmy | async)?.strength}}</h3>
+    <h3>Armor: {{(timmy | async)?.armor}}</h3>
+  </div></a>
+
+  <a (click)="show = false; showChoice = true; selectCharacter('larry')"><div *ngIf="show" class="animate-show-hide well col-md-3" value="larry">
+    <h2>{{(larry | async)?.name}}</h2>
+    <p><em>{{(larry | async)?.story}}</em></p>
+    <img class="char" src="{{(larry | async)?.img}}">
+    <h3>Health: {{(larry | async)?.health}}</h3>
+    <h3>Strength: {{(larry | async)?.strength}}</h3>
+    <h3>Armor: {{(larry | async)?.armor}}</h3>
+  </div></a>
+
+  <div *ngIf="showChoice" class="animate-show-hide well col-md-3" value="larry">
+    <h2>{{(characterToDisplay | async)?.name}}</h2>
+    <p><em>{{(characterToDisplay | async)?.story}}</em></p>
+    <img class="char" src="{{(characterToDisplay | async)?.img}}">
+    <h3>Health: {{(characterToDisplay | async)?.health}}</h3>
+    <h3>Strength: {{(characterToDisplay | async)?.strength}}</h3>
+    <h3>Armor: {{(characterToDisplay | async)?.armor}}</h3>
+  </div>
+</div>

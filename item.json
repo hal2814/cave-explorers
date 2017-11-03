@@ -1,0 +1,199 @@
+{ "items": [{
+    "img":"https://img-new.cgtrader.com/items/744248/0b8c94fb26/large/rusty-weapons-and-tools-set-3d-model-low-poly-obj-3ds-fbx-blend-mtl.png",
+    "name": "Rusty Pickaxe",
+    "type": "weapon",
+    "modifier": "2",
+    "clue":"Its more rust than pick..."  },
+    {
+    "img":"https://i.pinimg.com/originals/e2/7d/f9/e27df90e16c561120f5fc264d1e9101c.jpg",
+    "name": "Bat Leather Jacket",
+    "type": "armor",
+    "modifier": "10",
+    "clue":"Soft."  },
+    {
+    "img":"https://c2.staticflickr.com/2/1297/991949326_3ca8a427c1_b.jpg",
+    "name": "Vegan Bacon Cheeseburger",
+    "type": "food",
+    "modifier": "10",
+    "clue":"it says '100% vegan' on the wrapper."  },
+    {
+    "img":"https://s-i.huffpost.com/gen/1692024/images/o-CREAM-CHEESE-facebook.jpg",
+    "name": "Bagel with cream cheese",
+    "type": "food",
+    "modifier": "5",
+    "clue":"has the name 'Javi' written on the wrapper."  },
+    {
+    "img":"http://sparxbangor.co.uk/images/historical/BA096.jpg",
+    "name": "Barlton's ancient sword",
+    "type": "weapon",
+    "modifier": "5",
+    "clue":"Barlton won't be needing this anymore."  },
+    {
+    "img":"https://i.pinimg.com/736x/2e/6f/00/2e6f00c1cedf4283fc82fad76de6ebc2--silk-road-vintage-shoes.jpg",
+    "name": "Filth Filled Boots",
+    "type": "armor",
+    "modifier": "2",
+    "clue":"Why am I even putting these on?"  },
+    {
+    "img":"http://www.pngall.com/wp-content/uploads/2016/09/Rib-Cage-Free-Download-PNG.png",
+    "name": "a human ribcage",
+    "type": "armor",
+    "modifier": "3",
+    "clue":"It still has bits of person on it, but it will make a good chest plate"  },
+    {
+    "img":"https://farm4.staticflickr.com/3493/3838051139_e034c04564_o.jpg",
+    "name": "Mountain Dew",
+    "type": "food",
+    "modifier": "7",
+    "clue":"'It'll tickle yore innards' -Willy The Hillbilly"  },
+    {
+    "img":"https://camo.githubusercontent.com/1c25253b83b558f9b93f4f39e8b964d2766b7bbf/687474703a2f2f6d656469612e74756d626c722e636f6d2f74756d626c725f6c6b77356536414e6453317166377131732e706e67",
+    "name": "Nothing",
+    "type": "food",
+    "modifier": "0",
+    "clue":"a big ol' bunch of nothing"  }
+  ],
+
+  "characters": [{
+    "img":"https://previews.123rf.com/images/stokkete/stokkete1410/stokkete141000585/32580594-Young-explorer-guy-walking-in-the-rainforest-jungle-with-exploration-equipment-and-thick-glasses--Stock-Photo.jpg",
+    "name": "Dave the Cave Explorer",
+    "story": "Dave decided to go searching for caves, as he loves to explore them in his free time.",
+    "health": "100",
+    "strength":"5",
+    "armor":"0"  },
+    {
+    "img":"https://previews.123rf.com/images/pamparam/pamparam0704/pamparam070400261/891502-Strawberry-girl-eating-whipped-cream-Stock-Photo-cream-ice-woman.jpg",
+    "name": "Gramantha",
+    "story": "Once an heiress to a whipcream empire, Gramantha turned her back on her privellage and decided to explore caves or something.",
+    "health": "75",
+    "strength":"7",
+    "armor": "10"  },
+    {
+    "img":"https://pbs.twimg.com/profile_images/344513261571985570/8b660b3b2ea3ee0532294b72aacfaa38_400x400.jpeg",
+    "name": "Lil Lost Timmy",
+    "story": "He's little. He's lost. He's Timmy.",
+    "health": "120",
+    "strength": "2",
+    "armor": "0"  },
+
+    {
+    "img":"https://cdn77.sadanduseless.com/wp-content/uploads/2016/06/woodsman1.jpg",
+    "name": "Larry the Woodsman",
+    "story": "A large barrel chested man whos only love is the forest and his dog Juniper. He also likes caves.",
+    "health": "50",
+    "strength":"10",
+    "armor": "20"  },
+    {
+    "img":"http://cdn-static.denofgeek.com/sites/denofgeek/files/styles/main_wide/public/images/73809.jpg?itok=DtvkbulJ",
+    "name": "Cave Dweller",
+    "story": "You hear a strange sound, much like a child whimpering, or screaming. You don't really know, but it's getting closer.",
+    "health": "20",
+    "strength": "2",
+    "armor": "0"  },
+    {
+    "img":"http://commadot.com/wp-content/uploads/2015/10/batFace.jpg",
+    "name": "Facebat",
+    "story": "You hear an undeniable sound, screeching, it's definitely a facebat!",
+    "health": "10",
+    "strength":"4",
+    "armor": "0"  },
+
+    {
+    "img":"https://www.watermouthcastle.com/wp-content/uploads/2017/02/gnomecave_l.jpg",
+    "name": "Cave Gnome",
+    "story": "You feel a strange sensation on your leg, almost as if a tiny dog brushed your ankles, but then you notice a tiny human-like face, with a dumb pointy hat, Watch out! It's a cave gnome!",
+    "health": "15",
+    "strength":"3",
+    "armor": "3"  },
+    {
+    "img":"http://theatreofblood.se/sites/default/files/cave5.jpg",
+    "name": "Chorgoth the Cave Hippo",
+    "story": "The ground rumbles...It's getting closer..Is it? It can't be...It's Chorgoth the Cave Hippo. He's large and in charge! Prepare for battle!",
+    "health": "30",
+    "strength": "2",
+    "armor": "5"  }
+  ],
+
+  "caves": [{
+    "name": "Cave Entrance",
+    "items":[8,8],
+    "left": "1",
+    "right":"2",
+    "creatures": [],
+    "story": "Walking through the forest you see a giant dark cave entrance:",
+    "img":"http://1.bp.blogspot.com/-Pn1Z8IvSWnI/UrlT0tt_ktI/AAAAAAAC_h4/fG3AKEFJC_0/s1600/merlin0455.jpg"
+    },
+    {
+    "name": "Skeleton room",
+    "items":[0,6],
+    "left": "3",
+    "right":"4",
+    "creatures": [],
+    "story": "As you enter the tunnel you come across a skeleton next to a backpack: ",
+    "img": "https://cdnb.artstation.com/p/assets/images/images/000/322/299/large/simon-fetscher-skeleton-cave.jpg?1443926953"
+    },
+    {
+    "name": "A dark room",
+    "items":[7,5],
+    "left": "6",
+    "right":"5",
+    "creatures": [],
+    "story": "As you walk through this side of the cave you enveloped in pure darkness, all you can see is something shiny in the distance",
+    "img":"https://adventuresofacouchsurfer.files.wordpress.com/2011/05/img_1664-valentine-cave.jpg"
+    },
+    {
+    "name": "Strange nest",
+    "items":[1,7],
+    "left": "8",
+    "right":"7",
+    "creatures": [],
+    "story": "You come across what appears to be some kind of nesting ground for an unspeakable creature.",
+    "img":"https://img00.deviantart.net/feef/i/2005/338/6/c/nargh_the_cave_dweller_by_alex16.jpg"
+    },
+    {
+    "name": "Treasure room",
+    "items":[4,3],
+    "left": "7",
+    "right":"8",
+    "creatures": [],
+    "story": "The sound of dripping water catches your attention, but even more exciting is the sight of a strange chest halfway submerged in a shallow pool.",
+    "img":"https://www.yellowstonepark.com/.image/t_share/MTQ3MzIwMDY5MDUwNzM4MTI2/treasure-chest-cave_adobe_680.jpg"
+    },
+    {
+    "name": "Squishy room",
+    "items":[5,7],
+    "left": "8",
+    "right":"7",
+    "creatures": [],
+    "story": "It stinks... really bad. The floor is sticky and mushy. You see something sticking out of this disgusting substance.",
+    "img": "https://www-tc.pbs.org/wgbh/nova/assets/img/lives-of-extremophiles/image-02-large.jpg"
+    },
+    {
+    "name": "Underground deluge",
+    "items":[2,6],
+    "left": "7",
+    "right":"8",
+    "creatures": [],
+    "story": "You come across a large underground waterfall, It appears to be a dead end but you feel a breeze coming from the direction of the waterfall",
+    "img":"http://3.bp.blogspot.com/-4ZjO1jl4Z3g/URJoYejz6fI/AAAAAAAADH4/C6Nc0FC0udQ/s1600/Smoo+Cave+PK.jpg"
+    },
+    {
+    "name": "Pirate ship (#notgoonies)",
+    "items":[4,2],
+    "left": "0",
+    "right":"0",
+    "creatures": [],
+    "story": "You find an enourmous cavern housing a pirate ship, but defiintely not like the one from the Goonies, its totally different than that.",
+    "img":"https://vignette3.wikia.nocookie.net/goonies/images/f/f0/Inferno.jpg/revision/latest?cb=20110803235640"
+    },
+    {
+    "name": "Cave hippo",
+    "items":[1,0],
+    "left": "0",
+    "right":"0",
+    "creatures": [],
+    "story": "Something is sleeping... something big, you wish you brought extra underwear.",
+    "img":"https://img00.deviantart.net/b81e/i/2013/181/9/1/rock_monster_by_jbrown67-d6bfb6v.jpg"
+    }
+  ]
+}

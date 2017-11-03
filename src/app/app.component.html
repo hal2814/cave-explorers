@@ -1,0 +1,9 @@
+<div class = "container">
+  <h3>{{title}}</h3>
+  <div class="well">
+    <div *ngIf="hideSelect" class="panel panel-head">
+      <h2><a routerlink="item" (click)="goToItem()">Proceed</a></h2>
+    </div>
+  <router-outlet></router-outlet>
+  </div>
+</div>
