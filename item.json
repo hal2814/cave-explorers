@@ -41,7 +41,7 @@
     "modifier": "3",
     "clue":"It still has bits of person on it, but it will make a good chest plate"  },
     {
-    "img":"https://farm4.staticflickr.com/3493/3838051139_e034c04564_o.jpg",
+    "img":"https://vignette.wikia.nocookie.net/mountaindew/images/2/26/MtDew_Throwback_12oz.png/revision/latest?cb=20140729213825",
     "name": "Mountain Dew",
     "type": "food",
     "modifier": "7",
@@ -51,7 +51,20 @@
     "name": "Nothing",
     "type": "food",
     "modifier": "0",
-    "clue":"a big ol' bunch of nothing"  }
+    "clue":"a big ol' bunch of nothing"  },
+    {
+    "img":"https://vignette.wikia.nocookie.net/fallout/images/3/33/Repellent_Stick.png/revision/latest?cb=20101202025031",
+    "name": "a stick",
+    "type": "weapon",
+    "modifier": "1",
+    "clue":"Better than nothing I guess"  },
+    {
+    "img":"http://moziru.com/images/drawn-maple-leaf-transparent-12.png",
+    "name": "a leaf",
+    "type": "weapon",
+    "modifier": "0",
+    "clue":"You could pick this up, but why?"  }
+
   ],
 
   "characters": [{
@@ -116,7 +129,7 @@
 
   "caves": [{
     "name": "Cave Entrance",
-    "items":[8,8],
+    "items":[10,9],
     "left": "1",
     "right":"2",
     "creatures": [],
