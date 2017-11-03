@@ -57,10 +57,6 @@
     <p><em>{{(characterToDisplay | async)?.story}}</em></p>
   </div>
 
-  <div *ngIf="sameItemShow">
-    <h4>You can only hold one of those.</h4>
-  </div>
-
   <div *ngIf="itemShow" class="animate-show-hide col-md-3">
     <h3 class="story">You found: </h3>
     <h2 class="cavetitle">{{(itemToDisplay | async)?.name}}</h2>

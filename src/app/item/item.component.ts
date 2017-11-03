@@ -153,6 +153,7 @@ export class ItemComponent implements OnInit {
     }
     this.addShow = false;
     this.itemShow = false;
+
     this.inventory.push(this.itemObservable);
   }
 }
