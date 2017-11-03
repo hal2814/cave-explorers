@@ -62,6 +62,7 @@
   </div>
 
   <div *ngIf="itemShow" class="animate-show-hide well col-md-3">
+    <h3>You found: </h3>
     <h2>{{(itemToDisplay | async)?.name}}</h2>
     <p><em>{{(itemToDisplay | async)?.clue}}</em></p>
     <img class="char" src="{{(itemToDisplay | async)?.img}}">
