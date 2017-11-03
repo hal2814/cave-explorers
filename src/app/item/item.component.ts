@@ -102,6 +102,8 @@ export class ItemComponent implements OnInit {
     });
     console.log(this.caveObservable);
     this.searchShow = true;
+    this.addShow = false;
+    this.itemShow = false;
   }
 
   chooseRight(){
@@ -113,6 +115,8 @@ export class ItemComponent implements OnInit {
     });
     console.log(this.caveObservable);
     this.searchShow = true;
+    this.addShow = false;
+    this.itemShow = false;
   }
 
   findItem(){

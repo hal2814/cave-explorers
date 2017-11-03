@@ -1,35 +1,35 @@
 { "items": [{
-    "img":"https://img-new.cgtrader.com/items/744248/0b8c94fb26/large/rusty-weapons-and-tools-set-3d-model-low-poly-obj-3ds-fbx-blend-mtl.png",
+    "img":"http://pixelartmaker.com/art/d851ca4a819ceeb.png",
     "name": "Rusty Pickaxe",
     "type": "weapon",
     "modifier": "2",
     "clue":"Its more rust than pick..."  },
     {
-    "img":"https://i.pinimg.com/originals/e2/7d/f9/e27df90e16c561120f5fc264d1e9101c.jpg",
+    "img":"http://www.clker.com/cliparts/2/1/8/f/1240167174328127397okiimatsu_leather_jacket.svg.hi.png",
     "name": "Bat Leather Jacket",
     "type": "armor",
     "modifier": "10",
     "clue":"Soft."  },
     {
-    "img":"https://c2.staticflickr.com/2/1297/991949326_3ca8a427c1_b.jpg",
-    "name": "Vegan Bacon Cheeseburger",
+    "img":"http://piq.codeus.net/static/media/userpics/piq_172648_400x400.png",
+    "name": "Bacon cheese burger",
     "type": "food",
     "modifier": "10",
     "clue":"it says '100% vegan' on the wrapper."  },
     {
-    "img":"https://s-i.huffpost.com/gen/1692024/images/o-CREAM-CHEESE-facebook.jpg",
-    "name": "Bagel with cream cheese",
+    "img":"http://piq.codeus.net/static/media/userpics/piq_182763_400x400.png",
+    "name": "Magic bagel",
     "type": "food",
     "modifier": "5",
     "clue":"has the name 'Javi' written on the wrapper."  },
     {
-    "img":"http://sparxbangor.co.uk/images/historical/BA096.jpg",
+    "img":"http://piq.codeus.net/static/media/userpics/piq_111587_400x400.png",
     "name": "Barlton's ancient sword",
     "type": "weapon",
     "modifier": "5",
     "clue":"Barlton won't be needing this anymore."  },
     {
-    "img":"https://i.pinimg.com/736x/2e/6f/00/2e6f00c1cedf4283fc82fad76de6ebc2--silk-road-vintage-shoes.jpg",
+    "img":"http://img.time2draw.com/2014/06/How-to-Draw-Boots-final-step-215x382.png",
     "name": "Filth Filled Boots",
     "type": "armor",
     "modifier": "2",
@@ -41,7 +41,7 @@
     "modifier": "3",
     "clue":"It still has bits of person on it, but it will make a good chest plate"  },
     {
-    "img":"https://vignette.wikia.nocookie.net/mountaindew/images/2/26/MtDew_Throwback_12oz.png/revision/latest?cb=20140729213825",
+    "img":"http://pixeljoint.com/files/icons/full/pjpa7383.gif",
     "name": "Mountain Dew",
     "type": "food",
     "modifier": "7",
@@ -49,40 +49,40 @@
     {
     "img":"https://camo.githubusercontent.com/1c25253b83b558f9b93f4f39e8b964d2766b7bbf/687474703a2f2f6d656469612e74756d626c722e636f6d2f74756d626c725f6c6b77356536414e6453317166377131732e706e67",
     "name": "Nothing",
-    "type": "food",
+    "type": "junk",
     "modifier": "0",
     "clue":"a big ol' bunch of nothing"  },
     {
-    "img":"https://vignette.wikia.nocookie.net/fallout/images/3/33/Repellent_Stick.png/revision/latest?cb=20101202025031",
+    "img":"http://piq.codeus.net/static/media/userpics/piq_289982_400x400.png",
     "name": "a stick",
     "type": "weapon",
     "modifier": "1",
     "clue":"Better than nothing I guess"  },
     {
-    "img":"http://moziru.com/images/drawn-maple-leaf-transparent-12.png",
-    "name": "a leaf",
-    "type": "weapon",
+    "img":"http://piq.codeus.net/static/media/userpics/piq_80254_400x400.png",
+    "name": "some leaves",
+    "type": "junk",
     "modifier": "0",
     "clue":"You could pick this up, but why?"  }
 
   ],
 
   "characters": [{
-    "img":"https://previews.123rf.com/images/stokkete/stokkete1410/stokkete141000585/32580594-Young-explorer-guy-walking-in-the-rainforest-jungle-with-exploration-equipment-and-thick-glasses--Stock-Photo.jpg",
+    "img":"http://s.apptoko.com/a/uploads/thumbnails/042017/dungeon-explorer-pixel-rpg_icon.png",
     "name": "Dave the Cave Explorer",
     "story": "Dave decided to go searching for caves, as he loves to explore them in his free time.",
     "health": "100",
     "strength":"5",
     "armor":"0"  },
     {
-    "img":"https://previews.123rf.com/images/pamparam/pamparam0704/pamparam070400261/891502-Strawberry-girl-eating-whipped-cream-Stock-Photo-cream-ice-woman.jpg",
+    "img":"https://orig00.deviantart.net/0459/f/2012/310/c/2/pastel_goth_pixel_girl_by_caramelmoelleux-d5k74yk.png",
     "name": "Gramantha",
     "story": "Once an heiress to a whipcream empire, Gramantha turned her back on her privellage and decided to explore caves or something.",
     "health": "75",
     "strength":"7",
     "armor": "10"  },
     {
-    "img":"https://pbs.twimg.com/profile_images/344513261571985570/8b660b3b2ea3ee0532294b72aacfaa38_400x400.jpeg",
+    "img":"http://vignette1.wikia.nocookie.net/pixelpeople/images/3/3c/Animal_Trainer3Male.png/revision/latest?cb=20140627052357",
     "name": "Lil Lost Timmy",
     "story": "He's little. He's lost. He's Timmy.",
     "health": "120",
@@ -90,21 +90,21 @@
     "armor": "0"  },
 
     {
-    "img":"https://cdn77.sadanduseless.com/wp-content/uploads/2016/06/woodsman1.jpg",
+    "img":"http://www.victorankarberg.com/pics/pixel/lumberJack_idle.gif",
     "name": "Larry the Woodsman",
     "story": "A large barrel chested man whos only love is the forest and his dog Juniper. He also likes caves.",
     "health": "50",
     "strength":"10",
     "armor": "20"  },
     {
-    "img":"http://cdn-static.denofgeek.com/sites/denofgeek/files/styles/main_wide/public/images/73809.jpg?itok=DtvkbulJ",
+    "img":"http://piq.codeus.net/static/media/userpics/piq_29284_400x400.png",
     "name": "Cave Dweller",
     "story": "You hear a strange sound, much like a child whimpering, or screaming. You don't really know, but it's getting closer.",
     "health": "20",
     "strength": "2",
     "armor": "0"  },
     {
-    "img":"http://commadot.com/wp-content/uploads/2015/10/batFace.jpg",
+    "img":"https://orig00.deviantart.net/93c3/f/2016/223/0/a/eyebat_by_mimigax-dadhlmc.png",
     "name": "Facebat",
     "story": "You hear an undeniable sound, screeching, it's definitely a facebat!",
     "health": "10",
@@ -112,19 +112,33 @@
     "armor": "0"  },
 
     {
-    "img":"https://www.watermouthcastle.com/wp-content/uploads/2017/02/gnomecave_l.jpg",
+    "img":"https://orig00.deviantart.net/6eb7/f/2015/026/7/2/_pixel_art___animation__gravity_falls_gnome__pullr_by_dylanhreha-d8fitlo.png",
     "name": "Cave Gnome",
     "story": "You feel a strange sensation on your leg, almost as if a tiny dog brushed your ankles, but then you notice a tiny human-like face, with a dumb pointy hat, Watch out! It's a cave gnome!",
     "health": "15",
     "strength":"3",
     "armor": "3"  },
     {
-    "img":"http://theatreofblood.se/sites/default/files/cave5.jpg",
+    "img":"http://piq.codeus.net/static/media/userpics/piq_33100_400x400.png",
     "name": "Chorgoth the Cave Hippo",
     "story": "The ground rumbles...It's getting closer..Is it? It can't be...It's Chorgoth the Cave Hippo. He's large and in charge! Prepare for battle!",
     "health": "30",
     "strength": "2",
-    "armor": "5"  }
+    "armor": "5"  },
+    {
+    "img":"https://i.imgur.com/pAFQkfv.gif",
+    "name": "Ghost of a dead miner",
+    "story": "The hairs on the back of your neck stand on end as you hear the faint sound of a swinging metal lantern, you feel cold. Ready yourself! It's a ghost!",
+    "health": "20",
+    "strength": "3",
+    "armor": "0"  },
+    {
+    "img":"https://media.giphy.com/media/a3xlApIr1uwSI/giphy.gif",
+    "name": "Barlton the mage",
+    "story": "A strange man with what appears to be a magical wooden staff approaches you, You sense that he means you no harm",
+    "health": "100",
+    "strength": "5",
+    "armor": "0"  }
   ],
 
   "caves": [{

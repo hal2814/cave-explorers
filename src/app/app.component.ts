@@ -16,8 +16,12 @@ import { ItemService } from './item.service';
 })
 export class AppComponent {
   title = 'You are wandering through a spooky forest';
-  hideSelect = true;
+  hideSelect = false;
   constructor(private router: Router) {};
+
+  ngOnInit() {
+    this.hideSelect = true;
+  }
 
   goToCave() {
     this.router.navigate(['cave']);
