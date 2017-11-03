@@ -12,6 +12,21 @@
   border-radius: 30em;
 }
 
+.gametitle{
+  font-family: 'Press Start 2P', cursive;
+  color: lightgreen;
+}
+
+.cavetitle{
+  font-family: 'Press Start 2P', cursive;
+  color: purple;
+}
+
+
+.story{
+  font-family: 'VT323', monospace;
+}
+
 img{
   width: 100%;
 }

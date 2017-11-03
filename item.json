@@ -225,11 +225,31 @@
     "search":"Quick, grab something!",
     "name": "Cave hippo chamber",
     "items":[1,0],
-    "left": "0",
-    "right":"0",
+    "left": "6",
+    "right":"9",
     "creatures": [],
     "story": "Something is sleeping... something big, you wish you brought extra underwear.",
     "img":"https://img00.deviantart.net/b81e/i/2013/181/9/1/rock_monster_by_jbrown67-d6bfb6v.jpg"
+    },
+    {
+    "search":"Investigate pedestal of light",
+    "name": "Glowing pedestal",
+    "items":[1,0],
+    "left": "6",
+    "right":"10",
+    "creatures": [],
+    "story": "You see a large chamber, in the middle sits a pedestal shooting light from something.",
+    "img":"https://i.pinimg.com/564x/12/1e/98/121e98e9ee5fb25cf2ce4d1ec92e3396.jpg"
+    },
+    {
+    "search":"Explore Ancient structure",
+    "name": "Ancient temple",
+    "items":[1,0],
+    "left": "0",
+    "right":"0",
+    "creatures": [],
+    "story": "A collosal ancient structure of unknowable age, built by an unknowable force stands before you. You feel a sense of dread and awe.",
+    "img":"https://i.pinimg.com/564x/88/21/05/882105ae55d1d84ec273af98062710d2.jpg"
     }
   ]
 }

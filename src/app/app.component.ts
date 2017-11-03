@@ -15,7 +15,6 @@ import { ItemService } from './item.service';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'You are wandering through a spooky forest';
   hideSelect = false;
   constructor(private router: Router) {};
 
@@ -31,12 +30,10 @@ export class AppComponent {
   goToCharacter() {
     this.router.navigate(['character']);
     this.hideSelect = false;
-    this.title = 'a spooky cave';
   };
 
   goToItem() {
     this.router.navigate(['item']);
     this.hideSelect = false;
-    this.title = 'a spooky cave';
   };
 }
