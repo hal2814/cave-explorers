@@ -1,6 +1,6 @@
 <div *ngIf="death">
   <h1 class="defeat">GAME OVER.</h1>
-  <h3 class="defeat">you have died.</h3>
+  <h3 class="story">{{monsterObservable.name}} has killed you.</h3>
 </div>
 <div *ngIf="!death" class="row">
   <div class="col-md-5" *ngIf="showChoice">
