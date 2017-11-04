@@ -203,8 +203,14 @@ export class ItemComponent implements OnInit {
 
   attack(){
     let attackNumber = Math.floor(this.monHealth/this.strength);
-    this.health -= (attackNumber * this.monStrength);
-    this.monHealth -= (attackNumber * this.strength);
+    if(this.armor > 0){
+      this.armor -= (attackNumber * this.monStrength);
+      this.monHealth -= (attackNumber * this.strength);
+    }
+    if(this.monHealth > 0){
+      this.health -= (attackNumber * this.monStrength);
+      this.monHealth -= (attackNumber * this.strength);
+    }
     this.showLeftRight = true;
     this.attackShow = false;
     this.monShow = false;

@@ -1,5 +1,5 @@
 <div class="row">
-  <div class="col-md-6" *ngIf="showChoice">
+  <div class="col-md-5" *ngIf="showChoice">
     <h2 class="cavetitle">{{(caveToDisplay | async)?.name}}</h2>
 
       <h3 class="story">{{(caveToDisplay | async)?.story}}</h3>
@@ -58,8 +58,8 @@
     <p><em>{{(characterToDisplay | async)?.story}}</em></p>
   </div>
 
-  <div *ngIf="sameItemShow">
-    <h4>You can only hold one of those.</h4>
+  <div *ngIf="attackShow" class="animate-show-hide col-md-1">
+    <img src="http://vignette1.wikia.nocookie.net/wowwiki/images/b/bb/Fancy_crossed_swords.png/revision/latest?cb=20130601061022">
   </div>
 
   <div *ngIf="monShow" class="animate-show-hide col-md-3">
