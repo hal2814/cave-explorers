@@ -38,7 +38,7 @@ When you do battle you will hit the enemy until they run out of health, or they 
 
 If your health gets to 0 then the game is over.
 
-![alt text](img/screen2.png)
+![alt text](img/screendeath.png)
 
 
 copyright 2017 Nate McGregor
