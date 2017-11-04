@@ -1,20 +1,22 @@
 # Cave Explorers: The Game
 
+Authors: Nate McGregor & Noah Gottlieb
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
 # Instructions for setup
 
-first start by cloning the project and `cd angular-extended` into the project directory.
+first start by cloning the project `git clone https://github.com/hal2814/angular-extended` then `cd angular-extended` to navigate into the project directory.
 
 Once inside run  `npm install && bower install`
 
-This project requires access to a Firebase realtime database, you will need to have an `api-keys.ts` file in the app folder.
+This project requires access to a Firebase realtime database, so you will need to have an `api-keys.ts` file in the app folder.
 
-if you are unfamiliar with Firebase refer to this `https://www.learnhowtoprogram.com/javascript/angular-extended/firebase-introduction-and-setup` for setup instructions.
+if you are unfamiliar with Firebase refer to this tutorial for setup instructions. https://www.learnhowtoprogram.com/javascript/angular-extended/firebase-introduction-and-setup 
 
 once you have completed these step you may run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Choose your character screen
+## Character selection screen
 
 When you start the game you will see 4 characters to choose from, click the one you would like to play as.
 
@@ -38,6 +40,8 @@ If your health gets to 0 then the game is over.
 
 ![alt text](img/screen2.png)
 
+
+copyright 2017 Nate McGregor
 
 
 ## Code scaffolding
