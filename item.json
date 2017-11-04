@@ -63,7 +63,7 @@
     "name": "some leaves",
     "type": "junk",
     "modifier": "0",
-    "clue":"You could pick them up, but why?"  },
+    "clue":"Stuff 'em in your pockets, maybe you'll stay warmer in the cave. Probably not though."  },
     {
     "img":"https://orig00.deviantart.net/2e29/f/2015/055/2/d/rock_pile_by_cospixels-d8jergk.png",
     "name": "a rock",
@@ -133,9 +133,9 @@
     {
     "img":"https://orig00.deviantart.net/6eb7/f/2015/026/7/2/_pixel_art___animation__gravity_falls_gnome__pullr_by_dylanhreha-d8fitlo.png",
     "name": "Cave Gnome",
-    "story": "You feel a strange sensation on your leg, almost as if a tiny dog brushed your ankles, but then you notice a tiny human-like face, with a dumb pointy hat, Watch out! It's barfing rainbows at you!",
+    "story": "You feel a strange sensation on your leg, almost as if a small dog brushed your ankles, but then you notice a tiny human-like face, with a dumb pointy hat, Watch out! It's barfing rainbows at you!",
     "health": "17",
-    "strength":"3",
+    "strength":"6",
     "armor": "0"  },
     {
     "img":"http://piq.codeus.net/static/media/userpics/piq_33100_400x400.png",
@@ -169,8 +169,8 @@
     "img":"https://vignette.wikia.nocookie.net/finalfantasy/images/2/2a/Kraken-ff1-ps.png/revision/latest?cb=20130221140248",
     "name": "Water fiend",
     "story": "Something is getting out of the water... it has... tentacles, Watch out!",
-    "health": "30",
-    "strength": "3",
+    "health": "33",
+    "strength": "4",
     "armor": "0"  }
   ],
 
@@ -237,7 +237,7 @@
     {
     "search":"Look around waterfall",
     "name": "Underground deluge",
-    "items":[2,6],
+    "items":[2,11],
     "left": "7",
     "right":"8",
     "creature": 7,
@@ -248,8 +248,8 @@
     "search":"Search pirate ship",
     "name": "Underground pirate ship (#notgoonies)",
     "items":[4,2],
-    "left": "0",
-    "right":"0",
+    "left": "11",
+    "right":"11",
     "creature": 4,
     "story": "You find an enourmous cavern housing a pirate ship, but defiintely not like the one from the Goonies, its totally different than that.",
     "img":"https://uproxx.files.wordpress.com/2014/04/goonies-pirate-ship.jpg?quality=100&w=650&h=313"
@@ -278,8 +278,8 @@
     "search":"Explore Ancient structure",
     "name": "Ancient temple",
     "items":[13,7],
-    "left": "0",
-    "right":"0",
+    "left": "11",
+    "right":"11",
     "creature": 5,
     "story": "A collosal ancient structure of unknowable age, built by an unknowable force stands before you. You feel a sense of dread and awe.",
     "img":"https://i.pinimg.com/564x/88/21/05/882105ae55d1d84ec273af98062710d2.jpg"
@@ -291,7 +291,7 @@
     "left": "0",
     "right":"0",
     "creature": 6,
-    "story": "It appears you have found an exit, congradulations, but now what?",
+    "story": "It appears you have found an exit. Congradulations, but now what?",
     "img":"https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/ocean-cave-tim-nichols.jpg"
     }
   ]

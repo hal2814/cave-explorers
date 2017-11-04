@@ -1,8 +1,8 @@
+<div *ngIf="death">
+  <h1 class="gametitle">GAME OVER</h1>
+  <h3 class="gametitle">you have died.</h3>
+</div>
 <div *ngIf="!death" class="row">
-  <div *ngIf="death">
-    <h1 class="gametitle">GAME OVER</h1>
-    <h3 class="gametitle">you have died.</h3>
-  </div>
   <div class="col-md-5" *ngIf="showChoice">
     <h2 class="cavetitle">{{(caveToDisplay | async)?.name}}</h2>
 

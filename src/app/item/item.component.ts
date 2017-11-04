@@ -167,8 +167,10 @@ export class ItemComponent implements OnInit {
     }
     this.addShow = false;
     this.itemShow = false;
+    if(this.itemObservable.modifier != 0){
+      this.inventory.push(this.itemObservable);
+    }
 
-    this.inventory.push(this.itemObservable);
   }
 
   findMonster(){
@@ -213,7 +215,7 @@ export class ItemComponent implements OnInit {
         this.armor = 0;
       }
     }
-    if(this.monHealth > 0){
+    if(this.monHealth > 0 && this.armor <= 0){
       this.health -= (attackNumber * this.monStrength);
       this.monHealth -= (attackNumber * this.strength);
     }
