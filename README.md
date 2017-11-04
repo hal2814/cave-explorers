@@ -14,10 +14,31 @@ if you are unfamiliar with Firebase refer to this `https://www.learnhowtoprogram
 
 once you have completed these step you may run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-![alt text](img/screen1.png)
-![alt text](img/screen2.png)
+## Choose your character screen
+
+When you start the game you will see 4 characters to choose from, click the one you would like to play as.
+
 ![alt text](img/screen3.png)
+
+## Pick up items along the way
+
+You will be able to search each room in the cave for items. Each area has regular items that drop, but there is a lower chance to get a better and more rare item. Items that you pick up will add a modifier based on item type to your character's stats. Items that are considered junk will not add to your inventory when you pick them up. Armor is better than health per point, and strength is how much damage you will do in an attack.
+
 ![alt text](img/screen4.png)
+
+##Fighting enemies
+
+When you do battle you will hit the enemy until they run out of health, or they will hit you until you run out of health.
+
+![alt text](img/screen1.png)
+
+##Dying
+
+If your health gets to 0 then the game is over.
+
+![alt text](img/screen2.png)
+
+
 
 ## Code scaffolding
 
