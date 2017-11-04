@@ -20,6 +20,8 @@ export class AppComponent {
 
   ngOnInit() {
     this.hideSelect = true;
+    this.router.navigate(['item']);
+    this.hideSelect = false;
   }
 
   goToCave() {

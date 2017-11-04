@@ -63,7 +63,25 @@
     "name": "some leaves",
     "type": "junk",
     "modifier": "0",
-    "clue":"You could pick them up, but why?"  }
+    "clue":"You could pick them up, but why?"  },
+    {
+    "img":"https://orig00.deviantart.net/2e29/f/2015/055/2/d/rock_pile_by_cospixels-d8jergk.png",
+    "name": "a rock",
+    "type": "junk",
+    "modifier": "0",
+    "clue":"just your regular everyday rock."  },
+    {
+    "img":"https://orig00.deviantart.net/11ec/f/2015/173/3/4/wizard_staff2_400x400_by_quzco-d8ybd9q.png",
+    "name": "the wizard's great staff",
+    "type": "weapon",
+    "modifier": "6",
+    "clue":"You can shoot lighting bolts, fire bolts, ice bolts. This IS a great staff!"  },
+    {
+    "img":"https://static1.squarespace.com/static/517537ede4b0152c19039ee3/t/517a6646e4b0bf1bde361670/1366976070672/arm7.png",
+    "name": "the Highlord's iron pauldrons",
+    "type": "armor",
+    "modifier": "15",
+    "clue":"These things look thick..."  }
 
   ],
 
@@ -149,7 +167,7 @@
     "armor": "0"  },
     {
     "img":"https://vignette.wikia.nocookie.net/finalfantasy/images/2/2a/Kraken-ff1-ps.png/revision/latest?cb=20130221140248",
-    "name": "Water abomination",
+    "name": "Water fiend",
     "story": "Something is getting out of the water... it has... tentacles, Watch out!",
     "health": "30",
     "strength": "3",
@@ -234,7 +252,7 @@
     "right":"0",
     "creature": 4,
     "story": "You find an enourmous cavern housing a pirate ship, but defiintely not like the one from the Goonies, its totally different than that.",
-    "img":"https://vignette3.wikia.nocookie.net/goonies/images/f/f0/Inferno.jpg/revision/latest?cb=20110803235640"
+    "img":"https://vignette.wikia.nocookie.net/goonies/images/7/71/Inferno_%281%29.jpg/revision/latest?cb=20170823215536"
     },
     {
     "search":"Quick, grab something!",
@@ -249,7 +267,7 @@
     {
     "search":"Investigate pedestal of light",
     "name": "Glowing pedestal",
-    "items":[1,0],
+    "items":[12,4],
     "left": "6",
     "right":"10",
     "creature": 6,
@@ -259,12 +277,22 @@
     {
     "search":"Explore Ancient structure",
     "name": "Ancient temple",
-    "items":[1,0],
+    "items":[13,7],
     "left": "0",
     "right":"0",
     "creature": 5,
     "story": "A collosal ancient structure of unknowable age, built by an unknowable force stands before you. You feel a sense of dread and awe.",
     "img":"https://i.pinimg.com/564x/88/21/05/882105ae55d1d84ec273af98062710d2.jpg"
+    },
+    {
+    "search":"Now what?",
+    "name": "The Ocean",
+    "items":[11,11],
+    "left": "0",
+    "right":"0",
+    "creature": 6,
+    "story": "It appears you have found an exit, congradulations, but now what?",
+    "img":"https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/ocean-cave-tim-nichols.jpg"
     }
   ]
 }

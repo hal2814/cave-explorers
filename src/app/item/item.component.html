@@ -91,8 +91,8 @@
   <div *ngIf=showChoice>
     <button class="btn btn-info" *ngIf="searchShow" (click)="findItem();">{{(caveToDisplay | async)?.search}}</button>
     <button class="btn btn-success" *ngIf="addShow" (click)="applyItem(); findMonster();">add item to your backpack</button>
-    <button class="btn btn-info" *ngIf="walkShow" (click)="walkThrough();">walk through cave</button>
-    <button class="btn btn-danger" *ngIf="battleShow" (click)="battleMonster();">Battle Monster!</button>
+    <button class="btn btn-info" *ngIf="walkShow" (click)="walkThrough();">walk forward</button>
+    <button class="btn btn-danger" *ngIf="battleShow" (click)="battleMonster();">Battle!</button>
     <button class="btn btn-warning" *ngIf="attackShow" (click)="attack();">Attack!</button>
   </div>
 </div>

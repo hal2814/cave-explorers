@@ -209,6 +209,7 @@ export class ItemComponent implements OnInit {
       this.armor -= (attackNumber * this.monStrength);
       this.monHealth -= (attackNumber * this.strength);
       if(this.armor < 0){
+        this.health += this.armor;
         this.armor = 0;
       }
     }
