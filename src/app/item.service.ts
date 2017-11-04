@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { Item } from './item.model';
 import { Character } from './character.model';
+import { Monster } from './monster.model';
 import { Cave } from './cave.model';
 import { AngularFireDatabase, FirebaseListObservable } from 'angularfire2/database';
 
@@ -37,5 +38,9 @@ export class ItemService {
 
   getCaveById(caveId: number) {
     return this.database.object('caves/'+ caveId);
+  }
+
+  getMonsterById(monsterId: number) {
+    return this.database.object('monsters/'+ monsterId);
   }
 }

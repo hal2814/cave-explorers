@@ -3,6 +3,7 @@ import { FirebaseListObservable } from 'angularfire2/database';
 import { Router } from '@angular/router';
 import { Item } from '../item.model';
 import { Character } from '../character.model';
+import { Monster } from '../monster.model';
 import { Cave } from '../cave.model';
 import { ItemService } from '../item.service';
 
@@ -24,21 +25,31 @@ export class ItemComponent implements OnInit {
   searchShow = true;
   addShow = false;
   sameItemShow = false;
+  monShow = false;
+  showLeftRight = true;
+  attackShow = false;
+  battleShow = false;
   caveToDisplay;
   characterToDisplay;
+  monsterToDisplay;
   itemToDisplay;
   caveObservable;
   characterObservable;
   itemObservable;
+  monsterObservable;
   caveIndex;
   dave;
   gram;
   timmy;
   larry;
   characterIndex;
+  monsterIndex;
   health;
   strength;
   armor;
+  monHealth;
+  monStrength;
+  monArmor;
 
 
 
@@ -155,5 +166,38 @@ export class ItemComponent implements OnInit {
     this.itemShow = false;
 
     this.inventory.push(this.itemObservable);
+  }
+
+  findMonster(){
+    this.monsterIndex = this.caveObservable.creature;
+    this.monsterToDisplay = this.itemService.getMonsterById(this.monsterIndex);
+
+    this.itemService.getMonsterById(this.monsterIndex).subscribe(dataLastEmittedFromObserver=>{
+      this.monsterObservable = new Monster(dataLastEmittedFromObserver.img,dataLastEmittedFromObserver.name,   dataLastEmittedFromObserver.story,dataLastEmittedFromObserver.health,dataLastEmittedFromObserver.strength,dataLastEmittedFromObserver.armor);
+    });
+    if(this.monsterObservable.health === 0){
+
+    }else{
+      this.showLeftRight = false;
+      this.monShow = true;
+      this.battleShow = true;
+    }
+  }
+
+  battleMonster(){
+    console.log(this.monsterObservable);
+    this.monHealth = parseInt(this.monsterObservable.health);
+    this.monStrength = parseInt(this.monsterObservable.strength);
+    this.monArmor = parseInt(this.monsterObservable.armor);
+    this.attackShow = true;
+    this.battleShow = false;
+  }
+
+  attack(){
+    let attackNumber = Math.floor(this.monHealth/this.strength);
+    this.health -= (attackNumber * this.monStrength);
+    this.monHealth -= (attackNumber * this.strength);
+    this.showLeftRight = true;
+    this.attackShow = false;
   }
 }

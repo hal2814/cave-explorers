@@ -95,8 +95,9 @@
     "story": "A large barrel chested man whos only love is the forest and his dog Juniper. He also likes caves.",
     "health": "50",
     "strength":"10",
-    "armor": "20"  },
-    {
+    "armor": "20"  }
+  ],
+  "monsters": [{
     "img":"http://piq.codeus.net/static/media/userpics/piq_29284_400x400.png",
     "name": "Cave Dweller",
     "story": "You hear a strange sound, much like a child whimpering, or screaming. You don't really know, but it's getting closer.",
@@ -127,7 +128,7 @@
     "armor": "5"  },
     {
     "img":"https://i.imgur.com/pAFQkfv.gif",
-    "name": "Ghost of a dead miner",
+    "name": "Ghost of a pirate",
     "story": "The hairs on the back of your neck stand on end as you hear the faint sound of a swinging metal lantern, you feel cold. Ready yourself! It's a ghost!",
     "health": "20",
     "strength": "3",
@@ -138,6 +139,13 @@
     "story": "A strange man with what appears to be a magical wooden staff approaches you, You sense that he means you no harm",
     "health": "100",
     "strength": "5",
+    "armor": "0"  },
+    {
+    "img":"https://heritagelandscapecreativity.files.wordpress.com/2014/07/pans-cave-5-1024x685.jpg",
+    "name": "empty cave",
+    "story": "Just more empty cave",
+    "health": "0",
+    "strength": "0",
     "armor": "0"  }
   ],
 
@@ -147,7 +155,7 @@
     "items":[9,10],
     "left": "1",
     "right":"2",
-    "creatures": [],
+    "creature": 6,
     "story": "Walking through the forest you see a giant dark cave entrance:",
     "img":"http://1.bp.blogspot.com/-Pn1Z8IvSWnI/UrlT0tt_ktI/AAAAAAAC_h4/fG3AKEFJC_0/s1600/merlin0455.jpg"
     },
@@ -157,7 +165,7 @@
     "items":[0,6],
     "left": "3",
     "right":"4",
-    "creatures": [],
+    "creature": 6,
     "story": "As you enter the tunnel you come across a skeleton next to a backpack: ",
     "img": "https://cdnb.artstation.com/p/assets/images/images/000/322/299/large/simon-fetscher-skeleton-cave.jpg?1443926953"
     },
@@ -167,7 +175,7 @@
     "items":[7,5],
     "left": "6",
     "right":"5",
-    "creatures": [],
+    "creature": 6,
     "story": "As you walk through this side of the cave you are enveloped in pure darkness, all you can see is something shiny in the distance",
     "img":"https://adventuresofacouchsurfer.files.wordpress.com/2011/05/img_1664-valentine-cave.jpg"
     },
@@ -177,7 +185,7 @@
     "items":[1,7],
     "left": "8",
     "right":"7",
-    "creatures": [],
+    "creature": 0,
     "story": "You come across what appears to be some kind of nesting ground for an unspeakable creature.",
     "img":"https://i.pinimg.com/564x/f7/d7/fb/f7d7fb482eb3e38fe454dfd5cee8dcda.jpg"
     },
@@ -187,7 +195,7 @@
     "items":[4,3],
     "left": "7",
     "right":"8",
-    "creatures": [],
+    "creature": 2,
     "story": "The sound of dripping water catches your attention, but even more exciting is the sight of a strange chest halfway submerged in a shallow pool.",
     "img":"https://www.yellowstonepark.com/.image/t_share/MTQ3MzIwMDY5MDUwNzM4MTI2/treasure-chest-cave_adobe_680.jpg"
     },
@@ -197,7 +205,7 @@
     "items":[5,7],
     "left": "8",
     "right":"7",
-    "creatures": [],
+    "creature": 1,
     "story": "It stinks... really bad. The floor is sticky and mushy. You see something sticking out of this disgusting substance.",
     "img": "https://www-tc.pbs.org/wgbh/nova/assets/img/lives-of-extremophiles/image-02-large.jpg"
     },
@@ -207,7 +215,7 @@
     "items":[2,6],
     "left": "7",
     "right":"8",
-    "creatures": [],
+    "creature": 6,
     "story": "You come across a large underground waterfall, It appears to be a dead end but you feel a breeze coming from the direction of the waterfall",
     "img":"http://3.bp.blogspot.com/-4ZjO1jl4Z3g/URJoYejz6fI/AAAAAAAADH4/C6Nc0FC0udQ/s1600/Smoo+Cave+PK.jpg"
     },
@@ -217,7 +225,7 @@
     "items":[4,2],
     "left": "0",
     "right":"0",
-    "creatures": [],
+    "creature": 4,
     "story": "You find an enourmous cavern housing a pirate ship, but defiintely not like the one from the Goonies, its totally different than that.",
     "img":"https://vignette3.wikia.nocookie.net/goonies/images/f/f0/Inferno.jpg/revision/latest?cb=20110803235640"
     },
@@ -227,7 +235,7 @@
     "items":[1,0],
     "left": "6",
     "right":"9",
-    "creatures": [],
+    "creature": 3,
     "story": "Something is sleeping... something big, you wish you brought extra underwear.",
     "img":"https://img00.deviantart.net/b81e/i/2013/181/9/1/rock_monster_by_jbrown67-d6bfb6v.jpg"
     },
@@ -237,7 +245,7 @@
     "items":[1,0],
     "left": "6",
     "right":"10",
-    "creatures": [],
+    "creature": 6,
     "story": "You see a large chamber, in the middle sits a pedestal shooting light from something.",
     "img":"https://i.pinimg.com/564x/12/1e/98/121e98e9ee5fb25cf2ce4d1ec92e3396.jpg"
     },
@@ -247,7 +255,7 @@
     "items":[1,0],
     "left": "0",
     "right":"0",
-    "creatures": [],
+    "creature": 5,
     "story": "A collosal ancient structure of unknowable age, built by an unknowable force stands before you. You feel a sense of dread and awe.",
     "img":"https://i.pinimg.com/564x/88/21/05/882105ae55d1d84ec273af98062710d2.jpg"
     }

@@ -4,9 +4,10 @@
 
       <h3 class="story">{{(caveToDisplay | async)?.story}}</h3>
       <img src="{{(caveToDisplay | async)?.img}}">
-    <button class="btn btn-warning" (click)="chooseLeft()">Left</button>
-    <button class="btn btn-danger" (click)="chooseRight()">Right</button>
-
+      <div *ngIf="showLeftRight">
+        <button class="btn btn-warning" (click)="chooseLeft()">Left</button>
+        <button class="btn btn-danger" (click)="chooseRight()">Right</button>
+      </div>
   </div>
 
   <h2  class="cavetitle" *ngIf="show">Choose Your Character:</h2>
@@ -57,6 +58,24 @@
     <p><em>{{(characterToDisplay | async)?.story}}</em></p>
   </div>
 
+  <div *ngIf="sameItemShow">
+    <h4>You can only hold one of those.</h4>
+  </div>
+
+  <div *ngIf="monShow" class="animate-show-hide col-md-3">
+    <h2 class="gametitle">{{(monsterToDisplay | async)?.name}}</h2>
+    <img class="char" src="{{(monsterToDisplay | async)?.img}}">
+    <div *ngIf="battleShow">
+      <h3 class="story">Health: {{monHealth}}</h3>
+      <h3 class="story">Strength: {{monStrength}}</h3>
+      <h3 class="story">Armor: {{monArmor}}</h3>
+      <p><em>{{(monsterToDisplay | async)?.story}}</em></p>
+    </div>
+  </div>
+
+
+
+
   <div *ngIf="itemShow" class="animate-show-hide col-md-3">
     <h3 class="story">You found: </h3>
     <h2 class="cavetitle">{{(itemToDisplay | async)?.name}}</h2>
@@ -66,7 +85,9 @@
   </div>
   <div *ngIf=showChoice>
     <button class="btn btn-info" *ngIf="searchShow" (click)="findItem();">{{(caveToDisplay | async)?.search}}</button>
-    <button class="btn btn-success" *ngIf="addShow" (click)="applyItem();">add item to your backpack</button>
+    <button class="btn btn-success" *ngIf="addShow" (click)="applyItem(); findMonster();">add item to your backpack</button>
+    <button class="btn btn-danger" *ngIf="battleShow" (click)="battleMonster();">Battle Monster!</button>
+    <button class="btn btn-warning" *ngIf="attackShow" (click)="attack();">Attack!</button>
   </div>
 </div>
 <br>
