@@ -1,10 +1,23 @@
-# Adventure
+# Cave Explorers: The Game
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
-## Development server
+# Instructions for setup
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+first start by cloning the project and `cd angular-extended` into the project directory.
+
+Once inside run  `npm install && bower install`
+
+This project requires access to a Firebase realtime database, you will need to have an `api-keys.ts` file in the app folder.
+
+if you are unfamiliar with Firebase refer to this `https://www.learnhowtoprogram.com/javascript/angular-extended/firebase-introduction-and-setup` for setup instructions.
+
+once you have completed these step you may run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+![alt text](img/screen1.png)
+![alt text](img/screen2.png)
+![alt text](img/screen3.png)
+![alt text](img/screen4.png)
 
 ## Code scaffolding
 

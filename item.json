@@ -97,7 +97,7 @@
     "name": "Gramantha",
     "story": "Once an heiress to a whipcream empire, Gramantha turned her back on her privellage and decided to explore caves or something.",
     "health": "70",
-    "strength":"6",
+    "strength":"5",
     "armor": "8"  },
     {
     "img":"http://vignette1.wikia.nocookie.net/pixelpeople/images/3/3c/Animal_Trainer3Male.png/revision/latest?cb=20140627052357",
@@ -112,7 +112,7 @@
     "name": "Larry the Woodsman",
     "story": "A large barrel chested man whos only love is the forest and his dog Juniper. He also likes caves.",
     "health": "35",
-    "strength":"8",
+    "strength":"7",
     "armor": "20"  }
   ],
   "monsters": [{
