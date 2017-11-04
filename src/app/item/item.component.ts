@@ -216,6 +216,9 @@ export class ItemComponent implements OnInit {
       this.health -= (attackNumber * this.monStrength);
       this.monHealth -= (attackNumber * this.strength);
     }
+    if(this.health <= 0){
+      this.death = true;
+    }
     this.showLeftRight = true;
     this.attackShow = false;
     this.monShow = false;
