@@ -8,19 +8,19 @@
     "img":"http://www.clker.com/cliparts/2/1/8/f/1240167174328127397okiimatsu_leather_jacket.svg.hi.png",
     "name": "a bat leather jacket",
     "type": "armor",
-    "modifier": "10",
+    "modifier": "5",
     "clue":"Soft."  },
     {
     "img":"http://piq.codeus.net/static/media/userpics/piq_172648_400x400.png",
     "name": "a bacon cheese burger",
     "type": "food",
-    "modifier": "10",
+    "modifier": "12",
     "clue":"it says '100% vegan' on the wrapper."  },
     {
     "img":"http://piq.codeus.net/static/media/userpics/piq_182763_400x400.png",
     "name": "a magic bagel",
     "type": "food",
-    "modifier": "5",
+    "modifier": "6",
     "clue":"has the name 'Javi' written on the wrapper."  },
     {
     "img":"http://piq.codeus.net/static/media/userpics/piq_111587_400x400.png",
@@ -32,13 +32,13 @@
     "img":"http://img.time2draw.com/2014/06/How-to-Draw-Boots-final-step-215x382.png",
     "name": "Filth Filled Boots",
     "type": "armor",
-    "modifier": "2",
+    "modifier": "1",
     "clue":"Why am I even putting these on?"  },
     {
     "img":"https://vignette.wikia.nocookie.net/fallout/images/a/ad/Rib_cage.png/revision/latest?cb=20151225142908",
     "name": "a human ribcage",
     "type": "armor",
-    "modifier": "3",
+    "modifier": "2",
     "clue":"It still has bits of person on it, but it will make a good chest plate"  },
     {
     "img":"http://pixeljoint.com/files/icons/full/pjpa7383.gif",
@@ -80,7 +80,7 @@
     "img":"https://static1.squarespace.com/static/517537ede4b0152c19039ee3/t/517a6646e4b0bf1bde361670/1366976070672/arm7.png",
     "name": "the Highlord's iron pauldrons",
     "type": "armor",
-    "modifier": "15",
+    "modifier": "10",
     "clue":"These things look thick..."  }
 
   ],
@@ -96,9 +96,9 @@
     "img":"https://orig00.deviantart.net/0459/f/2012/310/c/2/pastel_goth_pixel_girl_by_caramelmoelleux-d5k74yk.png",
     "name": "Gramantha",
     "story": "Once an heiress to a whipcream empire, Gramantha turned her back on her privellage and decided to explore caves or something.",
-    "health": "75",
+    "health": "70",
     "strength":"7",
-    "armor": "10"  },
+    "armor": "8"  },
     {
     "img":"http://vignette1.wikia.nocookie.net/pixelpeople/images/3/3c/Animal_Trainer3Male.png/revision/latest?cb=20140627052357",
     "name": "Lil Lost Timmy",
@@ -111,7 +111,7 @@
     "img":"http://www.victorankarberg.com/pics/pixel/lumberJack_idle.gif",
     "name": "Larry the Woodsman",
     "story": "A large barrel chested man whos only love is the forest and his dog Juniper. He also likes caves.",
-    "health": "50",
+    "health": "35",
     "strength":"10",
     "armor": "20"  }
   ],
@@ -133,21 +133,21 @@
     {
     "img":"https://orig00.deviantart.net/6eb7/f/2015/026/7/2/_pixel_art___animation__gravity_falls_gnome__pullr_by_dylanhreha-d8fitlo.png",
     "name": "Cave Gnome",
-    "story": "You feel a strange sensation on your leg, almost as if a tiny dog brushed your ankles, but then you notice a tiny human-like face, with a dumb pointy hat, Watch out! It's a cave gnome!",
+    "story": "You feel a strange sensation on your leg, almost as if a tiny dog brushed your ankles, but then you notice a tiny human-like face, with a dumb pointy hat, Watch out! It's barfing rainbows at you!",
     "health": "17",
     "strength":"3",
     "armor": "0"  },
     {
     "img":"http://piq.codeus.net/static/media/userpics/piq_33100_400x400.png",
     "name": "Chorgoth the Cave Hippo",
-    "story": "The ground rumbles...It's getting closer..Is it? It can't be...It's Chorgoth the Cave Hippo. He's large and in charge! Prepare for battle!",
-    "health": "35",
+    "story": "Too late... you've done awoken the beast! The ground rumbles...It's getting closer..Is it? It can't be...It's Chorgoth the Cave Hippo. He's large and in charge! Prepare for battle!",
+    "health": "37",
     "strength": "5",
     "armor": "0"  },
     {
     "img":"https://i.imgur.com/pAFQkfv.gif",
     "name": "Ghost of a pirate",
-    "story": "The hairs on the back of your neck stand on end as you hear the faint sound of a swinging metal lantern, you feel cold. Ready yourself! It's a ghost!",
+    "story": "The hairs on the back of your neck stand on end as you hear the faint sound of a swinging metal lantern... you feel cold. Ready yourself! It's a ghost!",
     "health": "22",
     "strength": "4",
     "armor": "0"  },
@@ -252,10 +252,10 @@
     "right":"0",
     "creature": 4,
     "story": "You find an enourmous cavern housing a pirate ship, but defiintely not like the one from the Goonies, its totally different than that.",
-    "img":"https://vignette.wikia.nocookie.net/goonies/images/7/71/Inferno_%281%29.jpg/revision/latest?cb=20170823215536"
+    "img":"https://uproxx.files.wordpress.com/2014/04/goonies-pirate-ship.jpg?quality=100&w=650&h=313"
     },
     {
-    "search":"Quick, grab something!",
+    "search":"Try not to wake it...",
     "name": "Cave hippo chamber",
     "items":[1,0],
     "left": "6",

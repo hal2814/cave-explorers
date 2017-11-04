@@ -206,7 +206,7 @@ export class ItemComponent implements OnInit {
   attack(){
     let attackNumber = Math.floor(this.monHealth/this.strength);
     if(this.armor > 0){
-      this.armor -= (attackNumber * this.monStrength);
+      this.armor -= (attackNumber * Math.floor(this.monStrength/2));
       this.monHealth -= (attackNumber * this.strength);
       if(this.armor < 0){
         this.health += this.armor;
