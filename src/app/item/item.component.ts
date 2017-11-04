@@ -26,9 +26,10 @@ export class ItemComponent implements OnInit {
   addShow = false;
   sameItemShow = false;
   monShow = false;
-  showLeftRight = true;
+  showLeftRight = false;
   attackShow = false;
   battleShow = false;
+  walkShow = false;
   caveToDisplay;
   characterToDisplay;
   monsterToDisplay;
@@ -169,18 +170,25 @@ export class ItemComponent implements OnInit {
   }
 
   findMonster(){
+
     this.monsterIndex = this.caveObservable.creature;
     this.monsterToDisplay = this.itemService.getMonsterById(this.monsterIndex);
 
     this.itemService.getMonsterById(this.monsterIndex).subscribe(dataLastEmittedFromObserver=>{
       this.monsterObservable = new Monster(dataLastEmittedFromObserver.img,dataLastEmittedFromObserver.name,   dataLastEmittedFromObserver.story,dataLastEmittedFromObserver.health,dataLastEmittedFromObserver.strength,dataLastEmittedFromObserver.armor);
     });
-    if(this.monsterObservable.health === 0){
+    this.showLeftRight = false;
+    this.walkShow = true;
+  }
 
+  walkThrough(){
+    if(this.monsterObservable.health === "0"){
+      this.walkShow = false;
+      this.showLeftRight = true;
     }else{
-      this.showLeftRight = false;
       this.monShow = true;
       this.battleShow = true;
+      this.walkShow = false;
     }
   }
 
@@ -199,5 +207,6 @@ export class ItemComponent implements OnInit {
     this.monHealth -= (attackNumber * this.strength);
     this.showLeftRight = true;
     this.attackShow = false;
+    this.monShow = false;
   }
 }

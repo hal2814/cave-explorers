@@ -65,7 +65,7 @@
   <div *ngIf="monShow" class="animate-show-hide col-md-3">
     <h2 class="gametitle">{{(monsterToDisplay | async)?.name}}</h2>
     <img class="char" src="{{(monsterToDisplay | async)?.img}}">
-    <div *ngIf="battleShow">
+    <div *ngIf="attackShow">
       <h3 class="story">Health: {{monHealth}}</h3>
       <h3 class="story">Strength: {{monStrength}}</h3>
       <h3 class="story">Armor: {{monArmor}}</h3>
@@ -86,6 +86,7 @@
   <div *ngIf=showChoice>
     <button class="btn btn-info" *ngIf="searchShow" (click)="findItem();">{{(caveToDisplay | async)?.search}}</button>
     <button class="btn btn-success" *ngIf="addShow" (click)="applyItem(); findMonster();">add item to your backpack</button>
+    <button class="btn btn-info" *ngIf="walkShow" (click)="walkThrough();">walk through cave</button>
     <button class="btn btn-danger" *ngIf="battleShow" (click)="battleMonster();">Battle Monster!</button>
     <button class="btn btn-warning" *ngIf="attackShow" (click)="attack();">Attack!</button>
   </div>
