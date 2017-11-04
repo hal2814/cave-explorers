@@ -117,6 +117,7 @@ export class ItemComponent implements OnInit {
     this.searchShow = true;
     this.addShow = false;
     this.itemShow = false;
+    this.showLeftRight = false;
   }
 
   chooseRight(){
@@ -130,6 +131,7 @@ export class ItemComponent implements OnInit {
     this.searchShow = true;
     this.addShow = false;
     this.itemShow = false;
+    this.showLeftRight = false;
   }
 
   findItem(){
@@ -206,6 +208,9 @@ export class ItemComponent implements OnInit {
     if(this.armor > 0){
       this.armor -= (attackNumber * this.monStrength);
       this.monHealth -= (attackNumber * this.strength);
+      if(this.armor < 0){
+        this.armor = 0;
+      }
     }
     if(this.monHealth > 0){
       this.health -= (attackNumber * this.monStrength);
