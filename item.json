@@ -2,31 +2,31 @@
     "img":"http://pixelartmaker.com/art/d851ca4a819ceeb.png",
     "name": "a rusty pickaxe",
     "type": "weapon",
-    "modifier": "2",
+    "modifier": "1",
     "clue":"Its more rust than pick..."  },
     {
     "img":"http://www.clker.com/cliparts/2/1/8/f/1240167174328127397okiimatsu_leather_jacket.svg.hi.png",
     "name": "a bat leather jacket",
     "type": "armor",
-    "modifier": "5",
+    "modifier": "4",
     "clue":"Soft."  },
     {
     "img":"http://piq.codeus.net/static/media/userpics/piq_172648_400x400.png",
     "name": "a bacon cheese burger",
     "type": "food",
-    "modifier": "12",
+    "modifier": "10",
     "clue":"it says '100% vegan' on the wrapper."  },
     {
     "img":"http://piq.codeus.net/static/media/userpics/piq_182763_400x400.png",
     "name": "a magic bagel",
     "type": "food",
-    "modifier": "6",
+    "modifier": "5",
     "clue":"has the name 'Javi' written on the wrapper."  },
     {
     "img":"http://piq.codeus.net/static/media/userpics/piq_111587_400x400.png",
     "name": "Barlton's ancient sword",
     "type": "weapon",
-    "modifier": "5",
+    "modifier": "4",
     "clue":"Barlton won't be needing this anymore."  },
     {
     "img":"http://img.time2draw.com/2014/06/How-to-Draw-Boots-final-step-215x382.png",
@@ -44,7 +44,7 @@
     "img":"http://pixeljoint.com/files/icons/full/pjpa7383.gif",
     "name": "Mountain Dew",
     "type": "food",
-    "modifier": "7",
+    "modifier": "5",
     "clue":"'It'll tickle yore innards' -Willy The Hillbilly"  },
     {
     "img":"https://camo.githubusercontent.com/1c25253b83b558f9b93f4f39e8b964d2766b7bbf/687474703a2f2f6d656469612e74756d626c722e636f6d2f74756d626c725f6c6b77356536414e6453317166377131732e706e67",
@@ -90,20 +90,20 @@
     "name": "Dave the Cave Explorer",
     "story": "Dave decided to go searching for caves, as he loves to explore them in his free time.",
     "health": "100",
-    "strength":"5",
+    "strength":"4",
     "armor":"0"  },
     {
     "img":"https://orig00.deviantart.net/0459/f/2012/310/c/2/pastel_goth_pixel_girl_by_caramelmoelleux-d5k74yk.png",
     "name": "Gramantha",
     "story": "Once an heiress to a whipcream empire, Gramantha turned her back on her privellage and decided to explore caves or something.",
     "health": "70",
-    "strength":"7",
+    "strength":"6",
     "armor": "8"  },
     {
     "img":"http://vignette1.wikia.nocookie.net/pixelpeople/images/3/3c/Animal_Trainer3Male.png/revision/latest?cb=20140627052357",
     "name": "Lil Lost Timmy",
     "story": "He's little. He's lost. He's Timmy.",
-    "health": "120",
+    "health": "115",
     "strength": "2",
     "armor": "0"  },
 
@@ -112,7 +112,7 @@
     "name": "Larry the Woodsman",
     "story": "A large barrel chested man whos only love is the forest and his dog Juniper. He also likes caves.",
     "health": "35",
-    "strength":"10",
+    "strength":"8",
     "armor": "20"  }
   ],
   "monsters": [{
@@ -249,7 +249,7 @@
     "name": "Underground pirate ship (#notgoonies)",
     "items":[4,2],
     "left": "11",
-    "right":"11",
+    "right":"9",
     "creature": 4,
     "story": "You find an enourmous cavern housing a pirate ship, but defiintely not like the one from the Goonies, its totally different than that.",
     "img":"https://uproxx.files.wordpress.com/2014/04/goonies-pirate-ship.jpg?quality=100&w=650&h=313"

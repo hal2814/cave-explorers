@@ -1,6 +1,6 @@
 <div *ngIf="death">
-  <h1 class="gametitle">GAME OVER</h1>
-  <h3 class="gametitle">you have died.</h3>
+  <h1 class="defeat">GAME OVER</h1>
+  <h3 class="defeat">you have died.</h3>
 </div>
 <div *ngIf="!death" class="row">
   <div class="col-md-5" *ngIf="showChoice">
@@ -56,9 +56,9 @@
   <div *ngIf="showChoice" class="animate-show-hide col-md-3">
     <h2 class="gametitle">{{(characterToDisplay | async)?.name}}</h2>
     <img class="char" src="{{(characterToDisplay | async)?.img}}">
-    <h3 class="story">Health: {{health}}</h3>
-    <h3 class="story">Strength: {{strength}}</h3>
-    <h3 class="story">Armor: {{armor}}</h3>
+    <h3 class="health story">Health: {{health}}</h3>
+    <h3 class="strength story">Strength: {{strength}}</h3>
+    <h3 class="armor story">Armor: {{armor}}</h3>
     <p><em>{{(characterToDisplay | async)?.story}}</em></p>
   </div>
 
@@ -67,14 +67,19 @@
     <img src="http://vignette1.wikia.nocookie.net/wowwiki/images/b/bb/Fancy_crossed_swords.png/revision/latest?cb=20130601061022">
   </div>
 
+  <div *ngIf="showVictory" class="animate-show-hide col-md-3">
+    <h1 class="vic">Victory!</h1>
+    <img src="https://vignette.wikia.nocookie.net/pixel-gun-3d/images/c/cd/Trophy.png/revision/latest/scale-to-width-down/180?cb=20170718125917">
+  </div>
+
   <div *ngIf="monShow" class="animate-show-hide col-md-3">
     <h2 class="gametitle">{{(monsterToDisplay | async)?.name}}</h2>
     <h4 *ngIf="!attackShow"><em>{{(monsterToDisplay | async)?.story}}</em></h4>
     <img class="char" src="{{(monsterToDisplay | async)?.img}}">
     <div *ngIf="attackShow">
-      <h3 class="story">Health: {{monHealth}}</h3>
-      <h3 class="story">Strength: {{monStrength}}</h3>
-      <h3 class="story">Armor: {{monArmor}}</h3>
+      <h3 class="health story">Health: {{monHealth}}</h3>
+      <h3 class="strength story">Strength: {{monStrength}}</h3>
+      <h3 class="armor story">Armor: {{monArmor}}</h3>
     </div>
   </div>
 

@@ -15,6 +15,18 @@ body{
   background-color: black;
 }
 
+.health {
+  color: red;
+}
+
+.strength {
+  color: green;
+}
+
+.armor {
+  color: gray;
+}
+
 .char{
   width: 50%;
 }
@@ -22,6 +34,16 @@ body{
 .gametitle{
   font-family: 'Press Start 2P', cursive;
   color: lightgreen;
+}
+
+.vic{
+  font-family: 'Press Start 2P', cursive;
+  color: blue;
+}
+
+.defeat{
+  font-family: 'Press Start 2P', cursive;
+  color: red;
 }
 
 .cavetitle{

@@ -30,6 +30,7 @@ export class ItemComponent implements OnInit {
   attackShow = false;
   battleShow = false;
   walkShow = false;
+  showVictory = false;
   caveToDisplay;
   characterToDisplay;
   monsterToDisplay;
@@ -118,6 +119,7 @@ export class ItemComponent implements OnInit {
     this.addShow = false;
     this.itemShow = false;
     this.showLeftRight = false;
+    this.showVictory = false;
   }
 
   chooseRight(){
@@ -132,6 +134,7 @@ export class ItemComponent implements OnInit {
     this.addShow = false;
     this.itemShow = false;
     this.showLeftRight = false;
+    this.showVictory = false;
   }
 
   findItem(){
@@ -222,6 +225,7 @@ export class ItemComponent implements OnInit {
     if(this.health <= 0){
       this.death = true;
     }
+    this.showVictory = true;
     this.showLeftRight = true;
     this.attackShow = false;
     this.monShow = false;
