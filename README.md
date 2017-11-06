@@ -14,6 +14,8 @@ This project requires access to a Firebase realtime database, so you will need t
 
 if you are unfamiliar with Firebase refer to this tutorial for setup instructions. https://www.learnhowtoprogram.com/javascript/angular-extended/firebase-introduction-and-setup
 
+You will need to import the `item.json` to your Firebase database.
+
 once you have completed these step you may run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Character selection screen
